@@ -1,7 +1,82 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Test</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+		<title>ようこそ</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="icon" href="./favicon.ico">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id="date">
+
+		</div>
+		<div id="toggle">
+			<span></span>
+			<span></span>
+		</div>
+		<div class="column-container">
+			<div class="left">
+				<img src="./img/kanji.jpg" alt="">
+			</div>
+
+			<div class="clock">
+				<div id="hour" class=""></div>
+				<div id="separator" class=""></div>
+				<div id="minutes" class=""></div>
+			</div>
+
+			<div class="right">
+				<div id="greetings" class=""></div>
+				<div class="search_box">
+					<form action="https://www.duckduckgo.com/" method="get">
+					<input class="input_box" type="text" name="q" placeholder="~"/>
+				</div>
+				<div class="container">
+					<div class="column">
+						<p>General</p>
+						<a class="link" href="https://mail.google.com/"><img src="https://mail.google.com/favicon.ico">Gmail</a>
+						<a class="link" href="https://outlook.live.com/mail/0/inbox"><img src="https://outlook.live.com/favicon.ico">Hotmail</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+					</div>
+					<div class="column">
+						<p>Media</p>
+						<a class="link" href="https://youtube.com/"><img src="https://youtube.com/favicon.ico">YouTube</a>
+						<a class="link" href="https://twitch.tv/directory/following"><img src="https://twitch.tv/favicon.ico">Twitch</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+					</div>
+					<div class="column">
+						<p>Social</p>
+						<a class="link" href="https://reddit.com/"><img src="https://reddit.com/favicon.ico">Reddit</a>
+						<a class="link" href="https://twitter.com/"><img src="https://twitter.com/favicon.ico">Twitter</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+					</div>
+					<div class="column">
+						<p>Other</p>
+						<a class="link" href="https://rwbyg.com/"><img src="./img/rwby.png">/RWBYG/</a>
+						<a class="link" href="https://myfigurecollection.net/"><img src="https://myfigurecollection.net/favicon.ico">MyFigureCollection</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+						<a class="link null">null</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./scripts/darkmode.js"></script>
+		<script src="./scripts/greeting.js"></script>
+		<script src="./scripts/clock.js"></script>
+	</body>
 </html>
